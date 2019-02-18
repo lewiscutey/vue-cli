@@ -1,0 +1,12 @@
+{
+  "tpl": {
+    "m": {
+      "url": "git@git.pandatv.com:webtech/Development-Guide.git",
+      "branch": "m-vue-template"
+    },
+    "pc": {
+      "url": "git@git.pandatv.com:webtech/Development-Guide.git",
+      "branch": "pc-vue-template"
+    }
+  }
+}

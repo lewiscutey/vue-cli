@@ -1,24 +1,25 @@
 {
   "name": "vue-cli",
   "version": "1.0.0",
-  "description": "A Vue scaffold",
+  "description": "A Vue scaffold for panda",
   "main": "index.js",
   "keywords": [
     "vue",
     "template"
   ],
   "bin": {
-    "cli": "index.js"
+    "cli": "bin/cli"
   },
   "author": "lewis",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.15.1",
-    "download-git-repo": "^1.0.2",
-    "handlebars": "^4.0.11",
-    "inquirer": "^6.0.0",
-    "log-symbols": "^2.2.0",
-    "ora": "^2.1.0"
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "handlebars": "^4.1.0",
+    "metalsmith": "^2.3.0"
   }
 }

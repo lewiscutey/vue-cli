@@ -1,0 +1,32 @@
+#!/usr/local/bin/node
+
+'use strict'
+
+process.env.NODE_PATH = __dirname + '/../node_modules/'
+const program = require('commander')
+
+program
+  .version(require('../package').version)
+
+program
+  .usage('<command>')
+
+program
+	.command('list')
+	.description('List all the templates')
+	.action(() => {
+		require('../command/list')()
+	})
+
+program
+	.command('init')
+	.description('Generate a new project')
+  .action(() => {
+    require('../command/init')()
+  })
+
+program.parse(process.argv)
+
+if(!program.args.length){
+  program.help()
+}
