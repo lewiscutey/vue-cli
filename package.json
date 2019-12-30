@@ -19,7 +19,7 @@
     "commander": "^2.19.0"
   },
   "devDependencies": {
-    "handlebars": "^4.1.0",
+    "handlebars": "^4.3.0",
     "metalsmith": "^2.3.0"
   }
 }
